@@ -1,8 +1,8 @@
 import { ApiV3PoolInfoStandardItemCpmm, CpmmKeys, Percent, getPdaPoolAuthority } from '@raydium-io/raydium-sdk-v2'
 import BN from 'bn.js'
-import { initSdk, txVersion } from '../config'
+import { initSdk, txVersion } from './config'
 import Decimal from 'decimal.js'
-import { isValidCpmm } from './utils'
+import { isValidCpmm } from './util'
 
 export const deposit = async () => {
   const raydium = await initSdk()

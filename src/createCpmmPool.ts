@@ -5,7 +5,7 @@ import {
   getCpmmPdaAmmConfigId,
 } from '@raydium-io/raydium-sdk-v2'
 import BN from 'bn.js'
-import { initSdk, txVersion } from '../config'
+import { initSdk, txVersion } from './config'
 
 export const createPool = async () => {
   const raydium = await initSdk({ loadToken: true })
