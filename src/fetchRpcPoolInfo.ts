@@ -1,4 +1,4 @@
-import { initSdk } from '../config'
+import { initSdk } from './config'
 
 export const fetchRpcPoolInfo = async () => {
   const raydium = await initSdk()
